@@ -1,1 +1,8 @@
-<p>page-home works!</p>
+<div class="container">
+    <h1 class="title">SELHART Galerie</h1>
+    <div class="container-paints">
+        <ul>
+            <li *ngFor="let paint of paintsToDisplay">{{ paint.nom }}</li>
+        </ul>
+    </div>
+</div>
