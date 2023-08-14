@@ -4,11 +4,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { PageHomeComponent } from './pages/page-home/page-home.component';
+import { PageMyPaintingComponent } from './pages/page-my-painting/page-my-painting.component';
+import { PageAdminComponent } from './pages/page-admin/page-admin.component';
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    PageHomeComponent,
+    PageMyPaintingComponent,
+    PageAdminComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
