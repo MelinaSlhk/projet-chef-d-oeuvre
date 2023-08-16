@@ -1,4 +1,10 @@
 .container-plants {
   display: flex;
   flex-wrap: wrap;
+  
+}
+
+app-card {
+    margin-top: 15px;
+  margin-bottom: 15px;
 }

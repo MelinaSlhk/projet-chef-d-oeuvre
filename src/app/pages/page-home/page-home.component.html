@@ -1,9 +1,14 @@
 <div class="container">
     <h1 class="title">SELHART Galerie</h1>
-    <app-paint-list [paintsRecupDeLaHome]="paintsToDisplay"></app-paint-list>
+    <!-- <app-paint-list [paintsRecupDeLaHome]="paintsToDisplay"></app-paint-list> -->
     <!-- <div class="container-paints">
         <ul>
             <li *ngFor="let paint of paintsToDisplay">{{ paint.nom }}</li>
         </ul>
     </div> -->
+    <div id="flexIt">
+        <app-search-bar (userInput)="AlecouteDeLaRecherche($event)"></app-search-bar>
+        <!-- <app-side-bar [categoriesRecupDeLaHome]="categories"></app-side-bar> -->
+        <app-paint-list [paintsRecupDeLaHome]="paintsToDisplay"></app-paint-list>
+    </div>
 </div>

@@ -11,6 +11,8 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
 import { HttpClientModule } from '@angular/common/http';
 import { PaintListComponent } from './components/paint-list/paint-list.component';
 import { CardComponent } from './components/card/card.component';
+import { SideBarComponent } from './components/side-bar/side-bar.component';
+import { SearchBarComponent } from './components/search-bar/search-bar.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { CardComponent } from './components/card/card.component';
     PageAdminComponent,
     PageNotFoundComponent,
     PaintListComponent,
-    CardComponent
+    CardComponent,
+    SideBarComponent,
+    SearchBarComponent
   ],
   imports: [
     BrowserModule,
