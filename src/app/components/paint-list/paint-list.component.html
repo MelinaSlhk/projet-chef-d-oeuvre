@@ -1,0 +1,10 @@
+<div class="container-paints">
+    <div class="row">
+        <div class="col-4" *ngFor="let paint of paintsRecupDeLaHome">
+            <app-card [unePeintureAAfficher]="paint"></app-card>
+        </div>
+    </div>
+    <!-- <ul>
+        <li *ngFor="let paint of paintsRecupDeLaHome">{{ paint.nom }}</li>
+    </ul> -->
+</div>

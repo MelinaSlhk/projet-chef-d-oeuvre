@@ -1,8 +1,9 @@
 <div class="container">
     <h1 class="title">SELHART Galerie</h1>
-    <div class="container-paints">
+    <app-paint-list [paintsRecupDeLaHome]="paintsToDisplay"></app-paint-list>
+    <!-- <div class="container-paints">
         <ul>
             <li *ngFor="let paint of paintsToDisplay">{{ paint.nom }}</li>
         </ul>
-    </div>
+    </div> -->
 </div>

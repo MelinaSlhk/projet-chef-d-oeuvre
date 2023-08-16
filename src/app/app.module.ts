@@ -9,6 +9,8 @@ import { PageMyPaintingComponent } from './pages/page-my-painting/page-my-painti
 import { PageAdminComponent } from './pages/page-admin/page-admin.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { HttpClientModule } from '@angular/common/http';
+import { PaintListComponent } from './components/paint-list/paint-list.component';
+import { CardComponent } from './components/card/card.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { HttpClientModule } from '@angular/common/http';
     PageHomeComponent,
     PageMyPaintingComponent,
     PageAdminComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    PaintListComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

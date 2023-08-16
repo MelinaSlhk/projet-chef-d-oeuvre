@@ -1,8 +1,7 @@
 export interface Paint {
   id: number;
   nom: string;
-  dimension: string;
-  privée: boolean;
-  prix: number;
+  dimensions: string;
+  enchere: string;
   image: string;
 }
