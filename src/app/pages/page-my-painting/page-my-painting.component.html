@@ -1,1 +1,5 @@
-<p>page-my-painting works!</p>
+<div id="flexIt">
+    <app-search-bar (userInput)="AlecouteDeLaRecherche($event)"></app-search-bar>
+    <!-- <app-side-bar [categoriesRecupDeLaHome]="categories"></app-side-bar> -->
+    <app-paint-list [paintsRecupDeLaHome]="paintsToDisplay"></app-paint-list>
+</div>
